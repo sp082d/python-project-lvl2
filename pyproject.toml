@@ -4,11 +4,16 @@ version = "0.1.0"
 description = "Generate diff between two files"
 authors = ["sp082d <sp082d@gmail.com>"]
 license = "MIT"
+packages = [
+    { include = "gendiff" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 
+
 [tool.poetry.dev-dependencies]
+flake8 = "^3.7"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

@@ -3,7 +3,9 @@
 
 """Gendiff script."""
 
+
 import argparse
+
 
 def main():
     """Arguments parser."""
